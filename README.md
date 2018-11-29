@@ -8,11 +8,11 @@ Every demo function can be called only 20 times.
 ## 2 version 
 There are two versions of Signature Algorithms:
 
-+ **v1** as/cp
++ **Old v1** as/cp
 
   Some new functions are not available.
 
-+ **v2** as/mas
++ **New v2** as/mas
 
   All functions of the latest version 9.2 are available.
 
@@ -38,7 +38,7 @@ curl -X "POST" "https://crawldata.app/api/tiktok/v2/sign" \
 
 #### 3. API：
 
-| | New as/mas   | Old as/cp |
+| | New v2 as/mas   | Old v1 as/cp |
 | ------------- | ------------- | ------------- |
 | Home feeds  | [/v2/feed](https://crawldata.app/api/tiktok/v2/feed)  | [/v1/feed](https://crawldata.app/api/tiktok/v1/feed)  |
 | User's videos  | [/v2/aweme/post](https://crawldata.app/api/tiktok/v2/aweme/post?user_id=6603395355915993094&max_cursor=0&count=20)  | [/v1/aweme/post](https://crawldata.app/api/tiktok/v1/aweme/post?user_id=100481652413403136&max_cursor=0&count=20)  |
@@ -49,4 +49,6 @@ curl -X "POST" "https://crawldata.app/api/tiktok/v2/sign" \
 | Videos's comments  | [/v2/comment/list](https://crawldata.app/api/tiktok/v2/comment/list?aweme_id=6626744652743576838&cursor=0)  | [/v1/comment/list](https://crawldata.app/api/tiktok/v1/comment/list?aweme_id=6614960098630438150&cursor=0)  |
 | Hot Topics | [/v2/category/list](https://crawldata.app/api/tiktok/v2/category/list?cursor=0)  | [/v1/category/list](https://crawldata.app/api/tiktok/v1/category/list?cursor=0)  |
 | Topic related videos| [v2/challenge/aweme](https://crawldata.app/api/tiktok/v2/challenge/aweme?ch_id=20262712&cursor=0)  | [v1/challenge/aweme](https://crawldata.app/api/tiktok/v1/challenge/aweme?ch_id=20262712&cursor=0)  |
+
+**If you test old v1 as/cp, you will get a curl script, run it in a terminal, your network ip should not belong China.**
 
