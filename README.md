@@ -49,10 +49,10 @@ curl -X "POST" "https://crawldata.app/api/tiktok/v2/sign" \
 | Videos's comments  | [/v2/comment/list](https://crawldata.app/api/tiktok/v2/comment/list?aweme_id=6626744652743576838&cursor=0)  | [/v1/comment/list](https://crawldata.app/api/tiktok/v1/comment/list?aweme_id=6614960098630438150&cursor=0)  |
 | Hot Topics | [/v2/category/list](https://crawldata.app/api/tiktok/v2/category/list?cursor=0)  | [/v1/category/list](https://crawldata.app/api/tiktok/v1/category/list?cursor=0)  |
 | Topic related videos| [v2/challenge/aweme](https://crawldata.app/api/tiktok/v2/challenge/aweme?ch_id=20262712&cursor=0)  | [v1/challenge/aweme](https://crawldata.app/api/tiktok/v1/challenge/aweme?ch_id=20262712&cursor=0)  |
-| Topic detail info| [v2/challenge/detail](https://crawldata.app/api/tiktok/v2/challenge/detail?ch_id=20262712)  |   |
-| Search users| [v2/search/discover](https://crawldata.app/api/tiktok/v2/search/discover?keyword=lucas&cursor=0)  |   |
-| Search music| [v2/search/music](https://crawldata.app/api/tiktok/v2/search/music?keyword=lucas&cursor=0)  |   |
-| Search topic| [v2/search/challenge](https://crawldata.app/api/tiktok/v2/search/challenge?keyword=lucas&cursor=0)  |   |
+| Topic detail info| [v2/challenge/detail](https://crawldata.app/api/tiktok/v2/challenge/detail?ch_id=20262712)  | [v1/challenge/detail](https://crawldata.app/api/tiktok/v1/challenge/detail?ch_id=20262712)  |
+| Search users| [v2/search/discover](https://crawldata.app/api/tiktok/v2/search/discover?keyword=lucas&cursor=0)  |  [v1/search/discover](https://crawldata.app/api/tiktok/v1/search/discover?keyword=lucas&cursor=0) |
+| Search music| [v2/search/music](https://crawldata.app/api/tiktok/v2/search/music?keyword=lucas&cursor=0)  |  [v1/search/music](https://crawldata.app/api/tiktok/v1/search/music?keyword=lucas&cursor=0) |
+| Search topic| [v2/search/challenge](https://crawldata.app/api/tiktok/v2/search/challenge?keyword=lucas&cursor=0)  |  [v1/search/challenge](https://crawldata.app/api/tiktok/v1/search/challenge?keyword=lucas&cursor=0)  |
 
 + **If you test old v1 as/cp, you will get a curl script, run it in a terminal, your network ip should not belong China.**
 + **Search API http request should contain logined-in user cookies**
