@@ -54,5 +54,6 @@ curl -X "POST" "https://crawldata.app/api/tiktok/v2/sign" \
 | Search music| [v2/search/music](https://crawldata.app/api/tiktok/v2/search/music?keyword=lucas&cursor=0)  |   |
 | Search topic| [v2/search/challenge](https://crawldata.app/api/tiktok/v2/search/challenge?keyword=lucas&cursor=0)  |   |
 
-**If you test old v1 as/cp, you will get a curl script, run it in a terminal, your network ip should not belong China.**
++ **If you test old v1 as/cp, you will get a curl script, run it in a terminal, your network ip should not belong China.**
++ **Search API http request should contain logined in user cookies**
 
