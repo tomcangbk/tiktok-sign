@@ -48,5 +48,5 @@ curl -X "POST" "https://crawldata.app/api/tiktok/v2/sign" \
 | User's followers  | [/v2/user/follower/list](https://crawldata.app/api/tiktok/v2/user/follower/list?user_id=6603395355915993094&max_time=1543507917)  | [/v1/user/follower/list](https://crawldata.app/api/tiktok/v1/user/follower/list?user_id=100481652413403136)  |
 | Videos's comments  | [/v2/comment/list](https://crawldata.app/api/tiktok/v2/comment/list?aweme_id=6626744652743576838&cursor=0)  | [/v1/comment/list](https://crawldata.app/api/tiktok/v1/comment/list?aweme_id=6614960098630438150&cursor=0)  |
 | Hot Topics | [/v2/category/list](https://crawldata.app/api/tiktok/v2/category/list?cursor=0)  |   |
-| Topic related videos| [challenge/aweme](https://crawldata.app/api/tiktok/v2/challenge/aweme?ch_id=20262712&cursor=0)  |   |
+| Topic related videos| [v2/challenge/aweme](https://crawldata.app/api/tiktok/v2/challenge/aweme?ch_id=20262712&cursor=0)  | [v1/challenge/aweme](https://crawldata.app/api/tiktok/v1/challenge/aweme?ch_id=20262712&cursor=0)  |
 
