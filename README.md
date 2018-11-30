@@ -40,19 +40,19 @@ curl -X "POST" "https://crawldata.app/api/tiktok/v2/sign" \
 
 | | New v2 as/mas   | Old v1 as/cp |
 | ------------- | ------------- | ------------- |
-| Home feeds  | [/v2/feed](https://crawldata.app/api/tiktok/v2/feed)  | [/v1/feed](https://crawldata.app/api/tiktok/v1/feed)  |
-| User's videos  | [/v2/aweme/post](https://crawldata.app/api/tiktok/v2/aweme/post?user_id=6603395355915993094&max_cursor=0&count=20)  | [/v1/aweme/post](https://crawldata.app/api/tiktok/v1/aweme/post?user_id=100481652413403136&max_cursor=0&count=20)  |
-| User's favirite videos | [/v2/aweme/favorite](https://crawldata.app/api/tiktok/v2/aweme/favorite?user_id=6603395355915993094&max_cursor=0&count=20)  | [/v1/aweme/favorite](https://crawldata.app/api/tiktok/v1/aweme/favorite?user_id=100481652413403136&max_cursor=0&count=20)  |
-| Personal profile  | [/v2/user](https://crawldata.app/api/tiktok/v2/user?user_id=6603395355915993094)  | [/v1/user](https://crawldata.app/api/tiktok/v1/user?user_id=6578820956968484870)|
-| User's followings  | [/v2/user/following/list](https://crawldata.app/api/tiktok/v2/user/following/list?user_id=6603395355915993094&max_time=1543507917)  | [/v1/user/following/list](https://crawldata.app/api/tiktok/v1/user/following/list?user_id=6578820956968484870)  |
-| User's followers  | [/v2/user/follower/list](https://crawldata.app/api/tiktok/v2/user/follower/list?user_id=6603395355915993094&max_time=1543507917)  | [/v1/user/follower/list](https://crawldata.app/api/tiktok/v1/user/follower/list?user_id=100481652413403136)  |
-| Videos's comments  | [/v2/comment/list](https://crawldata.app/api/tiktok/v2/comment/list?aweme_id=6626744652743576838&cursor=0)  | [/v1/comment/list](https://crawldata.app/api/tiktok/v1/comment/list?aweme_id=6614960098630438150&cursor=0)  |
-| Hot Topics | [/v2/category/list](https://crawldata.app/api/tiktok/v2/category/list?cursor=0)  | [/v1/category/list](https://crawldata.app/api/tiktok/v1/category/list?cursor=0)  |
-| Topic related videos| [v2/challenge/aweme](https://crawldata.app/api/tiktok/v2/challenge/aweme?ch_id=20262712&cursor=0)  | [v1/challenge/aweme](https://crawldata.app/api/tiktok/v1/challenge/aweme?ch_id=20262712&cursor=0)  |
-| Topic detail info| [v2/challenge/detail](https://crawldata.app/api/tiktok/v2/challenge/detail?ch_id=20262712)  | [v1/challenge/detail](https://crawldata.app/api/tiktok/v1/challenge/detail?ch_id=20262712)  |
-| Search users| [v2/search/discover](https://crawldata.app/api/tiktok/v2/search/discover?keyword=lucas&cursor=0)  |  [v1/search/discover](https://crawldata.app/api/tiktok/v1/search/discover?keyword=lucas&cursor=0) |
-| Search music| [v2/search/music](https://crawldata.app/api/tiktok/v2/search/music?keyword=lucas&cursor=0)  |  [v1/search/music](https://crawldata.app/api/tiktok/v1/search/music?keyword=lucas&cursor=0) |
-| Search topic| [v2/search/challenge](https://crawldata.app/api/tiktok/v2/search/challenge?keyword=lucas&cursor=0)  |  [v1/search/challenge](https://crawldata.app/api/tiktok/v1/search/challenge?keyword=lucas&cursor=0)  |
+| Home feeds  | [/v2/feed](https://crawldata.app/api/tiktok/v2/feed)  | [/v1/feed](https://newyork.crawldata.app/api/tiktok/v1/feed)  |
+| User's videos  | [/v2/aweme/post](https://crawldata.app/api/tiktok/v2/aweme/post?user_id=6603395355915993094&max_cursor=0&count=20)  | [/v1/aweme/post](https://newyork.crawldata.app/api/tiktok/v1/aweme/post?user_id=100481652413403136&max_cursor=0&count=20)  |
+| User's favirite videos | [/v2/aweme/favorite](https://crawldata.app/api/tiktok/v2/aweme/favorite?user_id=6603395355915993094&max_cursor=0&count=20)  | [/v1/aweme/favorite](https://newyork.crawldata.app/api/tiktok/v1/aweme/favorite?user_id=100481652413403136&max_cursor=0&count=20)  |
+| Personal profile  | [/v2/user](https://crawldata.app/api/tiktok/v2/user?user_id=6603395355915993094)  | [/v1/user](https://newyork.crawldata.app/api/tiktok/v1/user?user_id=6578820956968484870)|
+| User's followings  | [/v2/user/following/list](https://crawldata.app/api/tiktok/v2/user/following/list?user_id=6603395355915993094&max_time=1543507917)  | [/v1/user/following/list](https://newyork.crawldata.app/api/tiktok/v1/user/following/list?user_id=6578820956968484870)  |
+| User's followers  | [/v2/user/follower/list](https://crawldata.app/api/tiktok/v2/user/follower/list?user_id=6603395355915993094&max_time=1543507917)  | [/v1/user/follower/list](https://newyork.crawldata.app/api/tiktok/v1/user/follower/list?user_id=100481652413403136)  |
+| Videos's comments  | [/v2/comment/list](https://crawldata.app/api/tiktok/v2/comment/list?aweme_id=6626744652743576838&cursor=0)  | [/v1/comment/list](https://newyork.crawldata.app/api/tiktok/v1/comment/list?aweme_id=6614960098630438150&cursor=0)  |
+| Hot Topics | [/v2/category/list](https://crawldata.app/api/tiktok/v2/category/list?cursor=0)  | [/v1/category/list](https://newyork.crawldata.app/api/tiktok/v1/category/list?cursor=0)  |
+| Topic related videos| [v2/challenge/aweme](https://crawldata.app/api/tiktok/v2/challenge/aweme?ch_id=20262712&cursor=0)  | [v1/challenge/aweme](https://newyork.crawldata.app/api/tiktok/v1/challenge/aweme?ch_id=20262712&cursor=0)  |
+| Topic detail info| [v2/challenge/detail](https://crawldata.app/api/tiktok/v2/challenge/detail?ch_id=20262712)  | [v1/challenge/detail](https://newyork.crawldata.app/api/tiktok/v1/challenge/detail?ch_id=20262712)  |
+| Search users| [v2/search/discover](https://crawldata.app/api/tiktok/v2/search/discover?keyword=lucas&cursor=0)  |  [v1/search/discover](https://newyork.crawldata.app/api/tiktok/v1/search/discover?keyword=lucas&cursor=0) |
+| Search music| [v2/search/music](https://crawldata.app/api/tiktok/v2/search/music?keyword=lucas&cursor=0)  |  [v1/search/music](newyork.https://crawldata.app/api/tiktok/v1/search/music?keyword=lucas&cursor=0) |
+| Search topic| [v2/search/challenge](https://crawldata.app/api/tiktok/v2/search/challenge?keyword=lucas&cursor=0)  |  [v1/search/challenge](https://newyork.crawldata.app/api/tiktok/v1/search/challenge?keyword=lucas&cursor=0)  |
 
 + **If you test old v1 as/cp, you will get a curl script, run it in a terminal, your network ip should not belong China.**
 + **Search API http request should contain logined-in user cookies**
